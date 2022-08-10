@@ -21,4 +21,3 @@ def findShortestSubArray(nums):
             idx10 = nums.index(arr[i])
             new_arr.append(idx1v - idx10 + 1)
         return min(new_arr)
-# print(findShortestSubArray([1,2,2,1,3,1,4,2]))
